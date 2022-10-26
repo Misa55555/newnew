@@ -5,62 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cs/inicio.css">
-    <title>INICIOo</title>
+    <script src="https://kit.fontawesome.com/517b8567fe.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body>
-    <div class="pt">
-        <div class="box">
-            <h2 class="header" style="background-color: #2196f3;">Simple</h2>
-            <ul>
-                <li class="cash"><span>$29.99</span>per month</li>
-                <li>Free Account</li>
-                <li>15 Email Account</li>
-                <li>100 Gb Space</li>
-                <li>1 Domain Name</li>
-                    <label for="" class="label-form">
-                    <input type="button" id="boton" onclick="mostrarFormulario();" class="boton-form" value="comprar">
-                    </label>
-            </ul>
+   <div class="padre">
+    <div class="contenedor contenedor1">
+        <h1>GOLDEN</h1>
+        <h2>30$</h2>
+        <div class="cajitas">
+            <i class="fa-solid fa-star"></i>
+            <P>Lorem ipsum dolor sit amet.</P>
         </div>
-        <div class="box">
-            <h2 class="header" style="background-color: #ffc107;">Simple</h2>
-            <ul>
-                <li class="cash"><span>$59.99</span>per month</li>
-                <li>Free Account</li>
-                <li>15 Email Account</li>
-                <li>100 Gb Space</li>
-                <li>1 Domain Name</li>
-                    <label for="" class="label-form">
-                    <input type="button" id="boton" onclick="mostrarFormulario();" class="boton-form" value="comprar">
-                    </label>
-            </ul>
+        <div class="cajitas">
+            <i class="fa-solid fa-star"></i>
+            <P>Lorem ipsum dolor sit amet.</P>
         </div>
-        <div class="box">
-            <h2 class="header" style="background-color: #f44336;">Simple</h2>
-            <ul>
-                <li class="cash"><span>$79.99</span>per month</li>
-                <li>Free Account</li>
-                <li>15 Email Account</li>
-                <li>100 Gb Space</li>
-                <li>1 Domain Name</li>
-                    <label for="" class="label-form">
-                    <input type="button" id="boton" onclick="mostrarFormulario();" class="boton-form" value="comprar">
-                    </label>
-            </ul>
+        <div class="cajitas">
+            <i class="fa-solid fa-star"></i>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+        <button class="btn btnAumentar" id="boton">
+            COMPRAR
+        </button>
+    </div>
+    <div class="contenedor contenedor2">
+        <div class="contenedor">
+            <h1>GOLDEN</h1>
+            <h2>30$</h2>
+            <div class="cajitas">
+                <i class="fa-solid fa-star"></i>
+                <P>Lorem ipsum dolor sit amet.</P>
+            </div>
+            <div class="cajitas">
+                <i class="fa-solid fa-star"></i>
+                <P>Lorem ipsum dolor sit amet.</P>
+            </div>
+            <div class="cajitas">
+                <i class="fa-solid fa-star "></i>
+                <P>Lorem ipsum dolor sit amet.</P>
+            </div>
+            <button class="btn btnAumentar" id="boton">
+                COMPRAR
+            </button>
         </div>
     </div>
-    <div id="formulario">
-      <form class="form-register" id="formRegister">
-        <h4>Formulario Registro</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="correo" id="password1" placeholder="Ingrese su Contraseña">
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons"  type="submit" value="Registrar">
-        <p><a href="#">¿Ya tengo Cuenta?</a></p>
-      </form>
-    </div>  
-    <script src="./inicio.html"></script>
+    <div class="contenedor contenedor3">
+        <h1>GOLDEN</h1>
+        <h2>30$</h2>
+        <div class="cajitas">
+            <i class="fa-solid fa-star"></i>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+        <div class="cajitas">
+            <i class="fa-solid fa-star"></i>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+        <div class="cajitas">
+            <i class="fa-solid fa-star"></i>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+        <button class="btn btnAumentar" id="boton">
+            COMPRAR
+        </button>
+    </div>
+  </div>  
+    <div class="form" id="formulario">
+        <section class="form-register"> 
+            <hr>
+            
+            <ol>
+                <li>TU COMPRA FUE DEL PAQUETE <span id="spanNum"></span></li>
+                <ol type="A"> CANTIDAD: <span id="span"></span> </ol>
+            </ol>
+        </section>
+        <button class="btn btnDisminuir">
+            CERRAR CARRITO DE COMPRA
+        </button>
+    </div>
+   <script src="./jsInicio.js"></script> 
 </body>
 </html>
