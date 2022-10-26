@@ -21,3 +21,5 @@ botonDisminuir.addEventListener("click", (e) => {
     cantidad = 1
     return modi
 })
+
+// PONER EL .querrySelectorAll no me esta funcionando me tira error, pero me deja hacerlo con getElementById o cualquier otra. La idea es que todo boton que dice compra me indique el "FORMULARIO"(futuro carrito de compra)
