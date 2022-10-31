@@ -1,5 +1,3 @@
-alert("SOLO VAS A TENER QUE PRESIONAR EL BOTON COMPRAR Y DESPUES FIJARTE EN EL CARRITO DE COMPRAS (NO SE PUEDE CERRAR EL CARRITO AUN :,C 😪")
-
 const ShopContent = document.getElementById("ShopContent")
 const verCarrito = document.getElementById("verCarrito")
 const modalContainer = document.getElementById("modalContainer")
