@@ -9,80 +9,18 @@
     <title>Document</title>
 </head>
 <body>
-   <div class="padre">
-    <div class="contenedor contenedor1">
-        <h1>GOLDEN</h1>
-        <h2>30$</h2>
-        <div class="cajitas">
-            <i class="fa-solid fa-star"></i>
-            <P>Lorem ipsum dolor sit amet.</P>
-        </div>
-        <div class="cajitas">
-            <i class="fa-solid fa-star"></i>
-            <P>Lorem ipsum dolor sit amet.</P>
-        </div>
-        <div class="cajitas">
-            <i class="fa-solid fa-star"></i>
-            <P>Lorem ipsum dolor sit amet.</P>
-        </div>
-        <button class="btn btnAumentar" id="boton">
-            COMPRAR
-        </button>
-    </div>
-    <div class="contenedor contenedor2">
-        <div class="contenedor">
-            <h1>GOLDEN</h1>
-            <h2>30$</h2>
-            <div class="cajitas">
-                <i class="fa-solid fa-star"></i>
-                <P>Lorem ipsum dolor sit amet.</P>
-            </div>
-            <div class="cajitas">
-                <i class="fa-solid fa-star"></i>
-                <P>Lorem ipsum dolor sit amet.</P>
-            </div>
-            <div class="cajitas">
-                <i class="fa-solid fa-star "></i>
-                <P>Lorem ipsum dolor sit amet.</P>
-            </div>
-            <button class="btn btnAumentar" id="boton">
-                COMPRAR
-            </button>
-        </div>
-    </div>
-    <div class="contenedor contenedor3">
-        <h1>GOLDEN</h1>
-        <h2>30$</h2>
-        <div class="cajitas">
-            <i class="fa-solid fa-star"></i>
-            <P>Lorem ipsum dolor sit amet.</P>
-        </div>
-        <div class="cajitas">
-            <i class="fa-solid fa-star"></i>
-            <P>Lorem ipsum dolor sit amet.</P>
-        </div>
-        <div class="cajitas">
-            <i class="fa-solid fa-star"></i>
-            <P>Lorem ipsum dolor sit amet.</P>
-        </div>
-        <button class="btn btnAumentar" id="boton">
-            COMPRAR
-        </button>
-    </div>
-  </div>  
-    <div class="form" id="formulario">
-        <section class="form-register"> 
-            <hr>
-            
-            <ol>
-                <li>TU COMPRA FUE DEL PAQUETE <span id="spanNum"></span></li>
-                <ol type="A"> CANTIDAD: <span id="span"></span> </ol>
-            </ol>
-        </section>
-        <button class="btn btnDisminuir">
-            CERRAR CARRITO DE COMPRA
-        </button>
-    </div>
+    <!--NAV DE LA PAGINA-->
+    <nav>
+        <h1 class="ver-carrito" id="verCarrito">🛒</h1>
+    </nav>
+
+    <!--contenido-->
+   <div id="ShopContent" class="Shop-content">  </div>
+
+   <!--MODAL-->
+    <div id="modalContainer" class="modal-container"></div>
+
+   <script src="./js/productos.js"></script>
    <script src="./jsInicio.js"></script> 
 </body>
 </html>
