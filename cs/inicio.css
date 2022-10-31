@@ -56,7 +56,7 @@
 .modal-header{
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: gray;
   color: aliceblue;
   width: 100%;
 }
