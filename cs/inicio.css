@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+
+.Shop-content {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr 1fr;
+}
 .card {
   text-align: center;
   display: grid;
-  font-weight: 900;
+  font-weight: 800;
   font-size:0.9cm;
 }
 
@@ -18,7 +24,7 @@
 }
 
 .p {
-  background-color: gray;
+  background-color: rgb(104, 100, 100);
 }
 
 .comprar {
@@ -56,7 +62,7 @@
 .modal-header{
   display: flex;
   justify-content: space-around;
-  background-color: gray;
+  background-color: rgb(190, 17, 17);
   color: aliceblue;
   width: 100%;
 }
@@ -87,4 +93,38 @@
   padding: 20px;
   text-align: center;
   padding-top: 20px;
+}
+
+.deleted-product {
+  cursor: pointer;
+}
+
+.cantidadCarrito {
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 50%;
+  font-size: 26px;
+  padding: 4px;
+  left: 20px;
+  position: absolute;
+  display: none;
+}
+
+/* HEADER*/
+
+.select-header {
+  text-align: center;
+}
+
+.hijo-div-header {
+  position:absolute;
+  z-index: 1;
+  color: wheat;
+  margin: 80px;
+  font-weight:bolder;
+  font-size: 90px;
+}
+
+.titulo-pag {
+  color: aqua;
 }
